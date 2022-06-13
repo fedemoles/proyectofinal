@@ -4,7 +4,7 @@ body {
 .conTainer {
   padding: 20px; }
 
-.ultIngr {
+.ultIngr, .taSac {
   background-color: #680005;
   text-align: center;
   font-size: 65%;
@@ -15,10 +15,7 @@ body {
   text-align: center; }
 
 .taSac {
-  background-color: #680005;
-  text-align: center;
-  font-size: 65%;
-  font-weight: bold; }
+  font-style: italic; }
 
 .cloSe {
   background-color: #ff0000;
@@ -66,4 +63,4 @@ body {
   padding: 0.5rem; }
 
 .webUnd:hover span {
-  text-shadow: 0 0 10px #ffffff, 0 0 20px, 0 0 40px; }
+  text-shadow: 0 0 10px #ffffff, 0 0 20px, 0 0 40px; }

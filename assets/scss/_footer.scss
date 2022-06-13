@@ -7,18 +7,18 @@
 }
 
 .webUnd {
-    background-color: #680005;
-    color: #ffffff;
+    background-color: $bgcolor2;
+    color: $bgcolor1;
     text-align: center;
     font-size: 85%;
     font-weight: bold;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 1px 1px $bgcolor6;
     width: auto;
     padding: 0.5rem;
 }
 
 .webUnd:hover span {
-    text-shadow: 0 0 10px #ffffff,
+    text-shadow: 0 0 10px $bgcolor1,
         0 0 20px,
         0 0 40px;
 }

@@ -1,36 +1,39 @@
 body {
-    background-color: #ffffff;
+    background-color: $bgcolor1;
 }
 
 .conTainer {
     padding: 20px;
 }
 
-.ultIngr {
-    background-color: #680005;
+@mixin ingresos ($bgcolor) {
+    background-color: $bgcolor;
     text-align: center;
     font-size: 65%;
     font-weight: bold;
+
+}
+
+.ultIngr {
+    @include ingresos ($bgcolor2)
 }
 
 .susCrip {
-    background-color: #4a0004;
+    background-color: $bgcolor3;
     text-align: center;
 }
 
 .taSac {
-    background-color: #680005;
-    text-align: center;
-    font-size: 65%;
-    font-weight: bold;
+    @extend .ultIngr;
+    font-style: italic;
 }
 
 .cloSe {
-    background-color: #ff0000;
+    background-color: $bgcolor4;
     border-radius: 1%;
 }
 
 .plaTaf {
-    background-color: rgb(130, 238, 153);
+    background-color: $bgcolor5;
     border-radius: 1%;
 }

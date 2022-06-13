@@ -1,0 +1,9 @@
+En los archivos "html" de todas las páginas, agregué el SEO con las siguientes características:
+
+"title"/encabezado: los encabezados hacen referencia a Del Pueblo Propiedades - Venta-Compra-Alquiler-Administraciones-Tasaciones-Asesoramiento Integral.
+
+"description": Agregué el siguiente párrafo que explica en pocas palabras el contenido del sitio: "La mejor forma de vender tu casa está en Del Pueblo Propiedades. Soluciones inmobiliarias para propietarios exigentes. Confianza en la operación de tu próxima vivienda.".
+
+"keywords": Agregué las siguientes palabras clave que acompañarán a todas las páginas de mi sitio: "Compra, Administración, Asesoramiento, Inmobiliaria, Bienes Raíces, Mendoza, Argentina, Venta, Alquiler, Alquiler Temporario, Tasaciones, Propiedades, Ambientes, Dormitorios, Baños, Campo, Casa, Casa Quinta, Casa con Local, Chacra, Chalet, Departamento, Dpto, Depósito, Dos Viviendas, Dúplex, Duplex, Estancia, Finca, Fondo de Comercio, Galpón, Local, Lote, Negocio, Oficina, PH, Piso, Nave, Garaje, Garage, Finca, Parcela, Local Comercial, Terreno, Loft, Cabaña, Quinta, Cochera, Otros, Bodega, Loteo, Casa de Playa, Semipiso, Fábrica, Fabrica, Edificio en Pozo, Apart Hotel, Fracción, Complejo de Cabañas, Losa, Planta Industrial, Real Estate Broker".
+
+El contenido de los html son coherentes con los metadatos para lograr el mejor posicionamiento en la plataforma de búsqueda de Google.

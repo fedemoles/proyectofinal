@@ -12,7 +12,8 @@ body {
 
 .susCrip {
   background-color: #4a0004;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 0.5%; }
 
 .taSac {
   font-style: italic; }
@@ -47,13 +48,14 @@ body {
     margin-bottom: 0px; } }
 
 .conTainers {
-  padding: 50px; }
+  padding: 50px;
+  background-color: #680005; }
 
 .aniMat {
   --animate-duration: 5s; }
 
 .webUnd {
-  background-color: #680005;
+  background-color: #4a0004;
   color: #ffffff;
   text-align: center;
   font-size: 85%;

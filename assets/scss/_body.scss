@@ -82,7 +82,7 @@ body {
         img {
             display: block;
             height: auto;
-            width: 100%;
+            width: 70%;
         }
     }
 
@@ -91,9 +91,9 @@ body {
 
         h1 {
             font-family: "Fontdiner Swanky", cursive;
-            font-size: 3.5rem;
+            font-size: 2.5rem;
             color: $bgcolor2;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
         }
 
         p {
@@ -101,7 +101,7 @@ body {
 
             em {
                 font-style: italic;
-                font-size: 1.5rem;
+                font-size: 1rem;
                 color: $bgcolor3;
             }
         }
@@ -109,7 +109,7 @@ body {
         button {
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bold;
-            font-size: 1.5rem;
+            font-size: 1rem;
             color: $bgcolor1;
             border: none;
             background-color: $bgcolor2;

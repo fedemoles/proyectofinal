@@ -43,12 +43,6 @@ body {
 
 @import url("https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Roboto:wght@500&display=swap");
 
-* {
-    box-sizing: 0;
-    margin: 0;
-    padding: 0;
-}
-
 #error404 {
     body {
         background: linear-gradient(to right, $bgcolor1 50%, $bgcolor1 50%);
@@ -88,7 +82,7 @@ body {
         img {
             display: block;
             height: auto;
-            width: 100%;
+            width: 90%;
         }
     }
 
@@ -97,7 +91,7 @@ body {
 
         h1 {
             font-family: "Fontdiner Swanky", cursive;
-            font-size: 4rem;
+            font-size: 3rem;
             color: $bgcolor2;
             margin-bottom: 1rem;
         }
@@ -107,7 +101,7 @@ body {
 
             em {
                 font-style: italic;
-                font-size: 1.5rem;
+                font-size: 1rem;
                 color: $bgcolor3;
             }
         }
@@ -115,7 +109,7 @@ body {
         button {
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bold;
-            font-size: 1.5rem;
+            font-size: 1rem;
             color: $bgcolor1;
             border: none;
             background-color: $bgcolor2;

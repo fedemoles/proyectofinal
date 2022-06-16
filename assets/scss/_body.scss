@@ -38,3 +38,119 @@ body {
     background-color: $bgcolor5;
     border-radius: 1%;
 }
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Roboto:wght@500&display=swap");
+
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#error404 {
+    body {
+        background: linear-gradient(to right, $bgcolor1 50%, $bgcolor1 50%);
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: $bgcolor1;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        max-width: 1000px;
+        width: calc(100% - #{4rem});
+        margin: 0 auto;
+
+        >* {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            max-width: 500px;
+            width: 100%;
+            padding: 2.5rem;
+        }
+    }
+
+    aside {
+        background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4424790/right-edges.png");
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 25px 100%;
+
+        img {
+            display: block;
+            height: auto;
+            width: 100%;
+        }
+    }
+
+    main {
+        text-align: center;
+
+        h1 {
+            font-family: "Fontdiner Swanky", cursive;
+            font-size: 4rem;
+            color: $bgcolor2;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 2.5rem;
+
+            em {
+                font-style: italic;
+                font-size: 1.5rem;
+                color: $bgcolor3;
+            }
+        }
+
+        button {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: $bgcolor1;
+            border: none;
+            background-color: $bgcolor2;
+            padding: 1rem 2.5rem;
+            transition: all 0.1s ease;
+
+            &:hover {
+                background-color: $bgcolor4;
+                transform: scale(1.15);
+            }
+        }
+    }
+
+    @media (max-width: 700px) {
+        body {
+            background: $bgcolor1;
+            font-size: 16px;
+        }
+
+        div {
+            flex-flow: column;
+
+            >* {
+                max-width: 700px;
+                height: 100%;
+            }
+        }
+
+        aside {
+            background-image: none;
+            background-color: $bgcolor1;
+
+            img {
+                max-width: 300px;
+            }
+        }
+    }
+}

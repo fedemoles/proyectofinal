@@ -5,6 +5,7 @@ body {
 .conTainer {
   padding: 20px; }
 
+/*mixin*/
 .ultIngr, .taSac {
   background-color: #680005;
   text-align: center;
@@ -117,6 +118,7 @@ body {
   font-weight: bold;
   text-shadow: 2px 1px #000000; }
 
+/*media queries*/
 @media (max-width: 800px) and (min-width: 0px) {
   .carOusel {
     font-size: 10px;

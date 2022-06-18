@@ -6,6 +6,7 @@ body {
     padding: 20px;
 }
 
+/*mixin*/
 @mixin ingresos ($bgcolor) {
     background-color: $bgcolor;
     text-align: center;

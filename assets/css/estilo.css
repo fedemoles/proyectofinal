@@ -20,14 +20,6 @@ body {
 .taSac {
   font-style: italic; }
 
-.cloSe {
-  background-color: #ff0000;
-  border-radius: 1%; }
-
-.plaTaf {
-  background-color: #82ee99;
-  border-radius: 1%; }
-
 #error404 body {
   background: linear-gradient(to right, #ffffff 50%, #ffffff 50%);
   font-family: "Roboto", sans-serif;

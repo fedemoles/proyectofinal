@@ -5,6 +5,14 @@ body {
 .conTainer {
   padding: 20px; }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  background-color: #680005;
+  background-size: 30%, 30%;
+  border: 1px solid #4a0004; }
+
 /*mixin*/
 .ultIngr, .taSac {
   background-color: #680005;

@@ -6,6 +6,15 @@ body {
     padding: 20px;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 30px;
+    width: 30px;
+    background-color: $bgcolor2;
+    background-size: 30%, 30%;
+    border: 1px solid $bgcolor3;
+}
+
 /*mixin*/
 @mixin ingresos ($bgcolor) {
     background-color: $bgcolor;

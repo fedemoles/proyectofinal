@@ -3,7 +3,8 @@ body {
   background-color: #ffffff; }
 
 .conTainer {
-  padding: 20px; }
+  padding: 20px;
+  background-color: #cacaca; }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {

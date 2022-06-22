@@ -124,7 +124,14 @@ body {
     font-size: 10px;
     padding: 0px;
     margin-top: 0px;
-    margin-bottom: 0px; } }
+    margin-bottom: 0px; }
+    .carOusel img {
+      min-height: 400px;
+      min-width: 0px;
+      height: auto;
+      width: auto;
+      max-height: 100%;
+      max-width: 100%; } }
 
 .conTainers {
   padding: 35px;

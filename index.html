@@ -75,7 +75,8 @@
     </nav>
     <!-- finaliza encabezado -->
     <div class="carOusel">
-        <div id="carouselExampleDark" class="carousel carousel-white slide carousel-fade w-100 mx-auto" data-bs-ride="carousel">
+        <div id="carouselExampleDark" class="carousel carousel-white slide carousel-fade w-100 mx-auto"
+            data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -404,22 +405,23 @@
         </span>
         <div class="input-group mb-3">
             <form class="row row-cols-md-auto p-1 g-2 align-items-center mx-auto">
-                <div class="col-sm-3">
-                    <label class="visually-hidden" for="specificSizeInputName">Name</label>
-                    <input type="text" class="form-control" id="specificSizeInputName" placeholder="Jane Doe">
-                </div>
-                <div class="col-12">
-                    <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
-                    <div class="input-group">
-                        <div class="input-group-text">@</div>
-                        <input type="text" class="form-control" id="inlineFormInputGroupUsername"
-                            placeholder="Username">
+                <form name="contact" method="POST" data-netlify="true">
+                    <div class="col-sm-3">
+                        <label class="visually-hidden" for="specificSizeInputName">Name</label>
+                        <input type="text" class="form-control" id="specificSizeInputName" placeholder="Jane Doe">
                     </div>
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Suscribir</button>
-                </div>
-            </form>
+                    <div class="col-12">
+                        <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-text">@</div>
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername"
+                                placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Suscribir</button>
+                    </div>
+                </form>
         </div>
     </div>
 

@@ -25,8 +25,8 @@ $mail->AddAttachment($validationFile['tmp_name'], $validationFile['name']);
 $mail->IsSMTP();
 $mail->Host = "ssl://smtp.gmail.com:465"; //Servidor de Salida.
 $mail->SMTPAuth = true;
-$mail->Username = "xxxxxxxx@gmail.com"; //Correo Electrónico
-$mail->Password = "************"; //Contraseña
+$mail->Username = "delpueblopropiedades@gmail.com"; //Correo Electrónico
+$mail->Password = "angel23437"; //Contraseña
 
 if ($mail->Send())
     echo "<script>alert('Formulario enviado exitosamente.');</script>";

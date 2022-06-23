@@ -114,8 +114,19 @@
     <hr>
 
     <div class="row g-3 container-fluid mx-auto">
-        <form class="was-validated align-items-center">
+        <form class="was-validated align-items-center" action="enviar.php" method="post" name="form1"
+            enctype="multipart/form-data">
             <form name="fileForm" enctype="multipart/form-data" data-netlify="true">
+                <div class="m-2 p-3">
+                    <label for="inputName4" class="form-label is-invalid">Nombre y Apellido</label>
+                    <input type="name" class="form-control is-invalid" id="inputName4"
+                        placeholder="Ingrese su nombre y apellido" required></textarea>
+                </div>
+                <div class="m-2 p-3">
+                    <label for="inputEmail2" class="form-label">E-Mail</label>
+                    <input type="text" class="form-control is-invalid" id="inputEmail2"
+                        placeholder="Ingrese su dirección de e-mail" required></textarea>
+                </div>
                 <div class="m-2 p-3">
                     <textarea class="form-control is-invalid" id="validationTextarea"
                         placeholder="Ingrese su requerimiento" required></textarea>
@@ -127,7 +138,7 @@
                     <div class="invalid-feedback"></div>
                 </div>
                 <div class="m-3 p-2">
-                    <input type="file" class="form-control" aria-label="file example" required>
+                    <input type="file" class="form-control" aria-label="file example" id="validationFile" required>
                     <div class="invalid-feedback"></div>
                 </div>
                 <div class="col-12 m-3 p-2">

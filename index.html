@@ -438,8 +438,9 @@
                 INFORMADO</h4>
         </span>
         <div class="input-group mb-3">
-            <form class="row row-cols-md-auto p-1 g-2 align-items-center mx-auto">
-                <form name="contact" method="POST" data-netlify="true">
+            <form class="row row-cols-md-auto p-1 g-2 align-items-center mx-auto" method="post" name="form1"
+                enctype="multipart/form-data">
+                <form name="contact" enctype="multipart/form-data" data-netlify="true">
                     <div class="col-sm-3">
                         <label class="visually-hidden" for="specificSizeInputName">Name</label>
                         <input type="text" class="form-control" id="specificSizeInputName" placeholder="Jane Doe">

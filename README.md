@@ -20,3 +20,7 @@ Con posterioridad, se podría incorporar otros lenguajes de programación, tales
 
 # Fuentes del proyecto
 Para el desarrollo del proyecto se utilizaron imágenes disponibles en la web, logos y fotos personales; y enlaces a redes sociales, propios de la empresa inmobiliaria.
+
+# Acceso a la web page del proyecto
+Click on the link below to access.
+https://delpueblopropiedades.netlify.app/

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Roboto:wght@500&display=swap");
+@import url(~mdb-ui-kit/css/mdb.min.css);
 body {
   background-color: #ffffff; }
 

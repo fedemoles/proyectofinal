@@ -24,6 +24,7 @@ Para el desarrollo del proyecto se utilizaron imágenes disponibles en la web, l
 ### Acceso a la web page del proyecto
 Click on the link below to access.
 https://fedemoles.github.io/proyectofinal/ (GitHub)
+
 Click on the link below to access.
 https://delpueblopropiedades.netlify.app/ (Netlify)
 

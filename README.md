@@ -3,11 +3,11 @@
 ## Objetivo
 La web page tiene como objetivo servir como base de datos para el potencial cliente, ofreciendo propiedades tanto para la venta como alquiler, a su vez agregando servicio de tasaciones digitales en 72hs, brindando a su vez la posibilidad de suscripción a novedades respecto a nuevas publicaciones por parte de inmobiliaria Del Pueblo Propiedades.
 
-## Funcionalidad y perspectivas futuras
+### Funcionalidad y perspectivas futuras
 El sitio está hecho con html, scss y css, habiendo utilizado además el framework Bootstrap. 
 Con posterioridad, se podría incorporar otros lenguajes de programación, tales como JS y otros frameworks, tales como VUE.js incorporando a su vez la biblioteca de REACT de JS, y porque no a futuro la compra o alquiler online a través de dicho sitio web, también se podría agregar la opción de "trabaja con nosotros" en la página de empresa, a modo de habilitar la posibilidad de recepción de currículums a través de la web page.
 
-## Descripción de las páginas y secciones del proyecto
+### Descripción de las páginas y secciones del proyecto
 -En la página principal se muestra un carousel maquetado con Bootstrap, indicando en frases simples el compromiso de Del Pueblo Propiedades con el potencial cliente, posteriormente las últimas novedades respecto a ingresos de propiedades, dando la bienvenida al visitante a nuestra web page, ofreciendo la posibilidad de suscripción al newsletter, a igual que el contacto directo con la inmobiliaria, adicionando las redes sociales al píe de la web.
 -En la página de venta, se muestran los últimos ingresos de propiedades y las propiedades disponibles para la venta, a igual que el contacto directo con la inmobiliaria adicionando las redes sociales al píe de la web.
 -En la página de alquiler, se muestran los últimos ingresos de propiedades y las propiedades disponibles para la locación, a igual que el contacto directo con la inmobiliaria adicionando las redes sociales al píe de la web.
@@ -26,4 +26,4 @@ Click on the link below to access.
 https://delpueblopropiedades.netlify.app/
 
 ### Screenshot del proyecto
-<img src="https://github.com/fedemoles/proyectofinal/tree/main/wireframes/demohome.jpg">
+<img src="https://github.com/fedemoles/proyectofinal/blob/main/public/demohome.jpg">

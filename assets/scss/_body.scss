@@ -23,7 +23,7 @@ body {
 }
 
 .contenedor-titulo-controles .indicadores button {
-    background: $bgcolor7;
+    background: $bgcolor5;
     height: 3px;
     width: 10px;
     cursor: pointer;
@@ -33,7 +33,7 @@ body {
 
 .contenedor-titulo-controles .indicadores button:hover,
 .contenedor-titulo-controles .indicadores button.activo {
-    background: $bgcolor4;
+    background: $bgcolor2;
 }
 
 /* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */

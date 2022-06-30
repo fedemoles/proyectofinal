@@ -20,7 +20,7 @@ body {
   align-items: end; }
 
 .contenedor-titulo-controles .indicadores button {
-  background: #333;
+  background: rgba(0, 0, 0, 0.3);
   height: 3px;
   width: 10px;
   cursor: pointer;
@@ -29,7 +29,7 @@ body {
 
 .contenedor-titulo-controles .indicadores button:hover,
 .contenedor-titulo-controles .indicadores button.activo {
-  background: #ff0000; }
+  background: #680005; }
 
 /* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
 .peliculas-recomendadas {

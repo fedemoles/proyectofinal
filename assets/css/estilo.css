@@ -33,7 +33,7 @@ body {
 
 /* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
 .peliculas-recomendadas {
-  margin-bottom: 70px; }
+  margin-bottom: 35px; }
 
 .peliculas-recomendadas .contenedor-principal {
   display: flex;

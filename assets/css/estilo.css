@@ -45,7 +45,7 @@ body {
   position: absolute;
   border: none;
   background: rgba(0, 0, 0, 0.3);
-  font-size: 25px;
+  font-size: 20px;
   height: 50%;
   top: calc(50% - 25%);
   line-height: 40px;

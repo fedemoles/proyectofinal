@@ -53,7 +53,7 @@ body {
   color: #ffffff;
   cursor: pointer;
   z-index: 500;
-  transition: .2s ease all; }
+  transition: .3s ease all; }
 
 .propiedades-disponibles .contenedor-principal .flecha-izquierda:hover,
 .propiedades-disponibles .contenedor-principal .flecha-derecha:hover {
@@ -78,7 +78,7 @@ body {
 
 .propiedades-disponibles .contenedor-carousel .carousel .propiedad {
   min-width: 20%;
-  transition: .3s ease all;
+  transition: .5s ease all;
   box-shadow: 5px 5px 10px #ffffff; }
 
 .propiedades-disponibles .contenedor-carousel .carousel .propiedad.hover {

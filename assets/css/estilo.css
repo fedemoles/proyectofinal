@@ -323,7 +323,7 @@ body {
   padding: 0.5rem; }
 
 .webUnd:hover span {
-  text-shadow: 0 0 10px #ffffff, 0 0 20px, 0 0 40px; }
+  text-shadow: 0 0 1px #ffffff, 0 0 0px, 0 0 0px; }
 
 .dataFisc {
   background-color: #4a0004;

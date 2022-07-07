@@ -297,6 +297,9 @@ body {
 .aniMat {
   --animate-duration: 5s; }
 
+.phoneColor {
+  transition: .7s ease all; }
+
 .phoneColor:hover {
   background-color: rgba(0, 0, 0, 0.15);
   border-radius: 6.5px;
@@ -304,13 +307,14 @@ body {
   transition: .7s; }
 
 .mailColor {
-  font-size: 97%; }
+  font-size: 97%;
+  transition: .7s ease all; }
 
 .mailColor:hover {
   background-color: rgba(0, 0, 0, 0.15);
-  border-radius: 6.5px;
   transform: scale(1.07);
-  transition: .7s; }
+  transform-origin: center;
+  border-radius: 6.5px; }
 
 .webUnd {
   background-color: #333;

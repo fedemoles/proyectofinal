@@ -10,6 +10,10 @@
     --animate-duration: 5s;
 }
 
+.phoneColor {
+    transition: .7s ease all;
+}
+
 .phoneColor:hover {
     background-color: $bgcolor8;
     border-radius: 6.5px;
@@ -19,13 +23,14 @@
 
 .mailColor {
     font-size: 97%;
+    transition: .7s ease all;
 }
 
 .mailColor:hover {
     background-color: $bgcolor8;
-    border-radius: 6.5px;
     transform: scale(1.07);
-    transition: .7s;
+    transform-origin: center;
+    border-radius: 6.5px;
 }
 
 .webUnd {

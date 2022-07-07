@@ -297,6 +297,12 @@ body {
 .aniMat {
   --animate-duration: 5s; }
 
+.phoneColor:hover {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.mailColor:hover {
+  background-color: rgba(0, 0, 0, 0.3); }
+
 .webUnd {
   background-color: #333;
   color: #ffffff;

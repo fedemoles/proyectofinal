@@ -11,13 +11,21 @@
 }
 
 .phoneColor:hover {
-    background-color: $bgcolor5;
+    background-color: $bgcolor8;
+    border-radius: 6.5px;
+    transform: scale(1.07);
+    transition: .7s;
+}
 
+.mailColor {
+    font-size: 97%;
 }
 
 .mailColor:hover {
-    background-color: $bgcolor5;
-
+    background-color: $bgcolor8;
+    border-radius: 6.5px;
+    transform: scale(1.07);
+    transition: .7s;
 }
 
 .webUnd {

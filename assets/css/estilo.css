@@ -127,6 +127,14 @@ body {
   font-weight: bold;
   border-radius: 6.5px; }
 
+.calcuButt {
+  transition: .9s ease all; }
+
+.calcuButt:hover {
+  border-radius: 6.5px;
+  transform: scale(1.2);
+  transition: .9s; }
+
 #error404 body {
   background: linear-gradient(to right, #ffffff 50%, #ffffff 50%);
   font-family: "Roboto", sans-serif;

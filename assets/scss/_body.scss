@@ -150,6 +150,15 @@ body {
     font-style: italic;
 }
 
+.calCu {
+    background-color: $bgcolor3;
+    text-align: center;
+    font-style: italic;
+    font-size: 125%;
+    font-weight: bold;
+    border-radius: 6.5px; 
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Roboto:wght@500&display=swap");
 
 #error404 {

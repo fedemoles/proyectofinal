@@ -119,6 +119,14 @@ body {
 .taSac {
   font-style: italic; }
 
+.calCu {
+  background-color: #4a0004;
+  text-align: center;
+  font-style: italic;
+  font-size: 125%;
+  font-weight: bold;
+  border-radius: 6.5px; }
+
 #error404 body {
   background: linear-gradient(to right, #ffffff 50%, #ffffff 50%);
   font-family: "Roboto", sans-serif;

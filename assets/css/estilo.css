@@ -140,8 +140,8 @@ body {
   position: fixed;
   bottom: 2.3rem;
   left: 2.2rem;
-  width: 4.9rem;
-  height: 4.9rem;
+  width: 3.6rem;
+  height: 3.6rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,8 +151,8 @@ body {
   animation: shadow-pulse 1s infinite; }
 
 .whatsapp ion-icon {
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 1.6rem;
+  height: 1.6rem;
   fill: #ffffff !important; }
 
 @keyframes shadow-pulse {
@@ -167,8 +167,8 @@ body {
 /* scroll Top/Up Button */
 .scroll-top {
   z-index: 1;
-  height: 5.4rem;
-  width: 5.4rem;
+  height: 4.0rem;
+  width: 4.0rem;
   background-color: #ff0000;
   position: fixed;
   bottom: 2rem;

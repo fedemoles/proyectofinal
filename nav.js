@@ -80,6 +80,6 @@ if (scrollButton) {
     }
   });
   scrollButton.addEventListener("click", () => {
-    window.scrollBy(0, -2500);
+    window.scrollBy(0, -3000);
   });
 }

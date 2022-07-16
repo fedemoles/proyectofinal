@@ -175,7 +175,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #25D366 !important;
+  background-color: #3393FF !important;
   border-radius: 50%;
   z-index: 9999;
   animation: shadow-pulse 1s infinite; }

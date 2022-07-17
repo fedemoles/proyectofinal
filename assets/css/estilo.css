@@ -177,8 +177,7 @@ body {
   justify-content: center;
   background-color: #3393FF !important;
   border-radius: 50%;
-  z-index: 9999;
-  animation: shadow-pulse 1s infinite; }
+  z-index: 9999; }
 
 .mail ion-icon {
   width: 2.6rem;

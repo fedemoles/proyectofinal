@@ -148,7 +148,7 @@ body {
   background-color: #25D366 !important;
   border-radius: 50%;
   z-index: 9999;
-  animation: shadow-pulse 1s infinite; }
+  animation: shadow-pulse 2s infinite; }
 
 .whatsapp ion-icon {
   width: 2.6rem;
@@ -175,9 +175,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #3393FF !important;
+  background-color: #FF5B33 !important;
   border-radius: 50%;
-  z-index: 9999; }
+  z-index: 9999;
+  animation: shadow-pulse 2s infinite; }
 
 .mail ion-icon {
   width: 2.6rem;

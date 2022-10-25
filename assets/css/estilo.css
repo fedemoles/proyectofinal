@@ -343,6 +343,9 @@ body {
 .carOusel {
   background-color: #680005; }
 
+.carOusel #carouselExampleDark .carousel-indicators button
+  {width:10px; height:10px;  border-radius: 50%;}
+ 
 .caroUss {
   font-size: 120%;
   font-weight: bold;

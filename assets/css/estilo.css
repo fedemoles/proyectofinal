@@ -21,8 +21,9 @@ body {
 
 .contenedor-titulo-controles .indicadores button {
   background: rgba(0, 0, 0, 0.3);
-  height: 3px;
-  width: 10px;
+  width:12px;
+  height:12px; 
+  border-radius: 50%;
   cursor: pointer;
   border: none;
   margin-right: 2px; }
@@ -345,6 +346,10 @@ body {
 
 .carOusel #carouselExampleDark .carousel-indicators button
   {width:10px; height:10px;  border-radius: 50%;}
+  .carOusel #carouselExampleDark .carousel-indicators button.active
+  {background-color: #680005; width:10px; height:10px;  border-radius: 50%;}
+  .carOusel #carouselExampleDark .carousel-indicators button:hover
+  {background-color: #680005; width:10px; height:10px;  border-radius: 50%;}
 
 .caroUss {
   font-size: 120%;

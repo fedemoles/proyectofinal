@@ -28,7 +28,6 @@ body {
   border: none;
   margin-right: 2px; }
 
-.contenedor-titulo-controles .indicadores button:hover,
 .contenedor-titulo-controles .indicadores button.activo {
   background: #680005; }
 
@@ -347,8 +346,6 @@ body {
 .carOusel #carouselExampleDark .carousel-indicators button
   {width:10px; height:10px;  border-radius: 50%;}
   .carOusel #carouselExampleDark .carousel-indicators button.active
-  {background-color: #680005; width:10px; height:10px;  border-radius: 50%;}
-  .carOusel #carouselExampleDark .carousel-indicators button:hover
   {background-color: #680005; width:10px; height:10px;  border-radius: 50%;}
 
 .caroUss {

@@ -9,9 +9,10 @@ body {
 .carousel-control-next-icon {
   height: 30px;
   width: 30px;
-  background-color: #333;
+  background-color: rgb(27, 27, 27);
   background-size: 40%, 40%;
-  border: 1px solid #333; }
+  border: 1px solid rgb(27, 27, 27);
+  border-radius: .3rem; }
 
 /* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
 .contenedor-titulo-controles {
@@ -46,6 +47,7 @@ body {
   position: absolute;
   border: none;
   background: rgba(0, 0, 0, 0.3);
+  border-radius: .3rem;
   font-size: 15px;
   height: 50%;
   top: calc(50% - 25%);
@@ -58,7 +60,7 @@ body {
 
 .propiedades-disponibles .contenedor-principal .flecha-izquierda:hover,
 .propiedades-disponibles .contenedor-principal .flecha-derecha:hover {
-  background: #333; }
+  background: #c8312d; border-radius: .3rem;}
 
 .propiedades-disponibles .contenedor-principal .flecha-izquierda {
   left: 0; }
